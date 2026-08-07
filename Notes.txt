@@ -1,0 +1,44 @@
+Python 
+--------
+>> It is a high-level, interpretted, OOP programming language.
+
+Human written 
+|
+|(Compiled) 
+|
+Byte code (common) 011011
+|
+|(interpret) (Runtime)
+|
+Machine code
+
+extension --> .py
+command to execute python file --> python filename.py
+
+cli --> Command line interface
+
+terminal --> cmd, powershell, git bash...
+
+Print 
+--------
+>> to show a data at the output.
+Ex: print(data)
+
+Syntax 
+--------
+>> Grammer of python.
+>> Case sensitive.(a is not A)
+>> Indendation Matters. (whitespace to define block of code)
+
+Comments 
+--------
+VS code --> ctrl + /
+>> Comments are ignored by python.
+>>makes the code readable.
+>>to disable a code snippet temp.
+
+ Single line comment --> #
+ Multiple line comments --> ''' '''
+
+Datatype 
+---------
