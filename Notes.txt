@@ -40,5 +40,80 @@ VS code --> ctrl + /
  Single line comment --> #
  Multiple line comments --> ''' '''
 
+Variables 
+-----------
+it is a named memory that stores an data.
+varName=data
+
+Naming Rules 
+----------------
+>> can contain letters, numeric, _
+>> cannot start with numeric.
+>> no reserved keywords.
+
 Datatype 
 ---------
+To find datatype --> type(data).
+Int --> Whole Numbers. 4,-4,0,1
+Float --> Decimal Numbers. 5.22323,3.14
+
+String --> Sequence of Characters.'' "".
+I'm Leo
+"I said "Hi""
+Concatination --> str1+str2
+Formatted String -->
+
+Escape Char 
+-----------
+
+Boolean
+
+Type Casting
+--------------
+Converting an objects datatype into another.
+int(obj)
+str(obj)
+float(obj)
+bool(obj)
+
+Operators 
+-----------
+>> It is a symbol or keyword that performs operations on operands(values).
+
+Arithmetic 
+
+Comparison 
+
+Logical 
+
+Assignment 
+
+Bitwise 
+
+Membership
+
+Identity
+
+
+Decimal --> 0-9... 99
+Binary  --> 01... 
+
+d     b
+-------------
+0     0
+1     1
+2     10
+3     11
+4     100
+5     101
+6     110
+7     111
+.
+68    1000100
+77    1001101
+99    ...
+
+
+bit --> smallest unit of memory 
+
+1110001
