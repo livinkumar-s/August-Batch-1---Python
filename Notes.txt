@@ -81,39 +81,64 @@ Operators
 >> It is a symbol or keyword that performs operations on operands(values).
 
 Arithmetic 
+------------
++ add
+- sub 
+* mul 
+/ div 
+// floor div 
+% modulus (reminder) 10%13 --> 0 --> 10
+** exponentiation --> 2**2 = 4
 
-Comparison 
+BODMAS
 
-Logical 
+Comparison (Boolean)
+-------------
+==
+!=
+<
+>
+<=
+>=
+
+Logical (Bool ---> Bool)
+----------
+and --> True --> Both are True. False --> otherwise
+or --> False --> Both are False. True --> otherwise.
+not --> inverts a bool. T->F, F->T
 
 Assignment 
+-----------
+= assign
++= add assign
+-= 
+*=
+/=
+//=
+%=
+**=
 
 Bitwise 
+---------
+& --> AND 
+| --> OR 
+~ --> NOT (~n=-(n+1))
+^ --> X-or (1 --> bits are not equal) (0 --> bits are equal)
+Right shift --> num>>pos
+Left Shift --> num<<pos
 
 Membership
+-------------
 
 Identity
+----------
 
 
-Decimal --> 0-9... 99
-Binary  --> 01... 
+2's Comp --> 1's comp + 1
 
-d     b
--------------
-0     0
-1     1
-2     10
-3     11
-4     100
-5     101
-6     110
-7     111
-.
-68    1000100
-77    1001101
-99    ...
-
-
-bit --> smallest unit of memory 
-
-1110001
+Binary Addition 
+------------------
+00 --> 0
+10, 01 --> 1
+11 --> 10
+111 --> 11

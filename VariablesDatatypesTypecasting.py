@@ -33,3 +33,7 @@ age=54
 # print(type(a))
 # b=str(600) #'600'
 # print(type(b))
+
+a=False
+print(a)
+print(type(a))
