@@ -24,6 +24,12 @@ Print
 >> to show a data at the output.
 Ex: print(data)
 
+Input 
+-------
+>> To prompt data from user.
+>> It always returns String.
+Ex: input(expStr)
+
 Syntax 
 --------
 >> Grammer of python.
@@ -134,11 +140,43 @@ Identity
 ----------
 
 
-2's Comp --> 1's comp + 1
+Control Flow
+---------------
+Conditional Clause
+Looping Statement
 
-Binary Addition 
-------------------
-00 --> 0
-10, 01 --> 1
-11 --> 10
-111 --> 11
+Conditional Clause 
+--------------------
+if statement 
+---------------
+syntax:
+--------
+if condition:
+    block of code
+condition --> expression that returns Bool.
+
+True --> execute the block. False --> skip the block of code
+
+elif statement 
+-----------------
+syntax:
+---------
+elif cond:
+    block of code
+
+True --> execute the block. False --> skip the block of code
+
+else Statement 
+---------------
+syntax 
+---------
+else:
+    block of code
+
+False --> execute the block. True --> skip the block.
+
+Nested If 
+------------
+if cond1: 
+    if cond2:  
+        block of code
