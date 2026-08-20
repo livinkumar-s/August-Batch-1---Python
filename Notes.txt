@@ -139,6 +139,21 @@ Membership
 Identity
 ----------
 
+Iterable Object 
+-----------------
+>> An object that can return its own members 1 by 1.
+Ex: String, list, tuple, dict, set...
+
+Sequence 
+----------
+To find len of a seq --> len(obj)
+>> Ordered collection of data.
+Ex: String, list, tuple...
+
+Indexing and Slicing  
+---------------------
+index starts with --> 0
+varName[ind]
 
 Control Flow
 ---------------
@@ -180,3 +195,44 @@ Nested If
 if cond1: 
     if cond2:  
         block of code
+
+Loop
+-----------
+>> It executes a block of code for multiple times.
+
+While --> Condition based loop
+For --> Sequence based loop 
+
+While (When you don't know the no of iteration)
+-------
+Syntax:
+----------
+while cond:
+    block of code
+
+>> keep repeating the block of code for multiple times as long as the condition is True.
+
+For Loop (number of iteration is known(preferable))
+--------
+Syntax:
+----------
+for varName in Sequence:
+    block of code
+
+Range --> to create a sequence with sequential Numbers 
+-----------------------------------------------------------
+range(len) --> range(5) --> [0,1,2,3,4]
+range(start,end) --> range(14,20) --> [14,15,16,17,18,19]
+range(start,end,step) --> range(2,20,1)
+
+Control Statememnts 
+---------------------
+break --> stop the loop
+continue --> skip the current iteration.
+
+
+Nested Loops 
+------------------
+
+Infinite Loops 
+----------------
