@@ -22,7 +22,8 @@ terminal --> cmd, powershell, git bash...
 Print 
 --------
 >> to show a data at the output.
-Ex: print(data)
+Ex: print(data, end="\n")
+
 
 Input 
 -------
@@ -230,9 +231,8 @@ Control Statememnts
 break --> stop the loop
 continue --> skip the current iteration.
 
-
 Nested Loops 
 ------------------
-
-Infinite Loops 
-----------------
+loop1(5):
+    loop2(5):
+        block of code
