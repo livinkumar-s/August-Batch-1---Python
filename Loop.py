@@ -93,16 +93,14 @@
 #     for j in range(3):
 #         print("Hello")
 
-len=int(input("Enter: "))
-
-
-for i in range(1,len+1): #i=1,2,3
-    for j in range(1,len+1): #j=1,2,3,4,5
-         if i==j or i+j==len+1:
-             print("* ",end="")
-         else:
-             print("  ",end="")
-    print()
+# len=int(input("Enter: ")) #7
+# for i in range(1,len+1): #i=1,2,3
+#     for j in range(1,len+1): #j=1,2,3
+#          if i==j or i+j==len+1:
+#              print("* ",end="")
+#          else:
+#              print("  ",end="")
+#     print()
 
 # print("Hello",12,54,67)
 # print("Hello\nHi")

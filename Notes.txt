@@ -154,7 +154,18 @@ Ex: String, list, tuple...
 Indexing and Slicing  
 ---------------------
 index starts with --> 0
+negative indexing --> -1
 varName[ind]
+
+Slicing 
+---------
+>> Extracting part of a sequence.
+
+seq[start:]
+seq[:end]
+seq[start:end]
+seq[start:end:step]
+seq[::-1]
 
 Control Flow
 ---------------
@@ -236,3 +247,86 @@ Nested Loops
 loop1(5):
     loop2(5):
         block of code
+
+Data structures 
+---------------
+>> It is a way of organizing and storing data.
+
+List --> Sequence
+------
+>> [ele1,ele2.....]
+>> Ordered and Indexed
+>> Mutable(Updatable)
+>> It allows duplicates
+
+In built methods 
+--------------------
+.append(ele)
+.insert(pos,ele)
+.extend(Iterables)
+
+.remove(ele) --> first occur
+.pop(ind)
+.pop() --> removes last element
+
+.index(ele) --> finds index number of an element
+.count(ele)
+
+.reverse()
+.sort()
+.clear()
+
+Tuple 
+--------
+>> (ele,ele....)
+>> Ordered, Indexed 
+>> It allows duplicates
+>> Immutable
+
+In built methods 
+------------------
+.index(ele) --> finds index number of an element
+.count(ele)
+
+Unpacking 
+------------
+person=("Leo",23,"SASE")
+name=person[0]
+age=person[1]
+role=person[2]
+
+name,age,role=person
+
+Set 
+-----
+>> {ele,ele.....}
+>> Unordered, indexed 
+>> Mutable 
+>> It does not allow duplicates 
+
+In built methods 
+--------------------
+.add(ele)
+.remove(ele)
+.clear()
+
+.union(s1)
+.intersection(s1)
+.difference(s1)
+
+Dict 
+-----
+>> {key:val,key:val......}
+>> Ordered. But not indexed
+>> keys cannot be duplicated But vals can.
+>> Mutable.
+
+In built methods
+-------------------
+.pop(key)
+.clear()
+
+.keys()
+.values()
+.items()
+
