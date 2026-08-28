@@ -330,3 +330,52 @@ In built methods
 .values()
 .items()
 
+Functions 
+-------------
+It is a reusable block of code that performs a specific task.
+
+Pre defined --> print, input, type, len.....
+User Defined --> defined by yourself
+
+
+syntax
+----------
+def fnName():
+    block of code
+
+Calling(invoking) a function --> fnName()
+
+Parameter and Argument 
+-------------------------
+P --> these are the variables you create in function defenition without assigning values
+
+A --> values you are passing to those parameters.
+
+Positional Arguments 
+-----------------------
+>> Order matters
+
+Keyword Arguments 
+-------------------
+>> assigning values for parameters by using p's name.
+
+Default Argument 
+------------------
+>> assigning default value for a parameter.
+
+Variable length Argument
+--------------------------
+*arg --> multiple vals.. tuple
+**karg 
+
+return keyword 
+----------------
+>> stop the function
+>> give back value to the caller.
+
+Scope 
+------
+Global 
+Local 
+Enclosing 
+Built in Scopes 

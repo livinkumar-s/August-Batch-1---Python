@@ -53,15 +53,15 @@
 
 # print(t1.index(3))
 
-# s1={1,2,3,4,5}
-# s2={5,6,7,8}
+s1={1,2,3,4,5}
+s2={5,6,7,8}
 
 # s1.add(100)
 # s1.remove(52)
 # s1.clear()
 
 # print(s1.union(s2))
-# print(s2.difference(s1))
+print(s1.difference(s2))
 
 # for i in {1,2,3}:
 #     print(i)
@@ -76,6 +76,8 @@
 #     "isIndia":True,
 #     # "name":"Hendry"
 # }
+
+# print(person1["favMovies"][0])
 
 # person1["age"]=45
 
@@ -99,19 +101,30 @@
 # a,b=1,2
 # print(b)
 
-l1=[
-    1,
-    2,
-    3,
-    [
-        "four",
-        "five",
-        [
-            "six",
-            "seven",
-            "eight"
-        ]
-    ]
-]
+# l1=[
+#     1,
+#     2,
+#     3,
+#     [
+#         "four",
+#         "five",
+#         [
+#             "six",
+#             "seven",
+#             "eight"
+#         ]
+#     ]
+# ]
 
-print(l1[-1][-1][-1][-1])
+# print(l1[-1][-1][-1][-1])
+
+# l1=[23,2,1,3,2,4,2,3]
+# print(list(set(l1)))
+
+# res=[]
+# for i in l1:
+#     if 
+
+# print(9)
+
+# OOP
