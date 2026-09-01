@@ -134,11 +134,18 @@ Bitwise
 Right shift --> num>>pos
 Left Shift --> num<<pos
 
+id --> return unique int to identify the objects.
+Mutable --> List, Set, Dict.(no reuse)
+Immutable --> Int, Float, Str, Tuple.(reuse)
+
 Membership
 -------------
+in, not in
 
 Identity
 ----------
+is, is not 
+to identify an object.
 
 Iterable Object 
 -----------------
@@ -375,7 +382,23 @@ return keyword
 
 Scope 
 ------
-Global 
-Local 
+>> it means the region where a particular name(var, func, class..) can be accessed.
+
+Global (accessible anywhere) (global)
+-------
+a name created outside of any function.
+
+Local (accessible only within that function)
+---------
+a name created inside a function.
+
 Enclosing 
-Built in Scopes 
+----------
+variables declared in outer function is accessible in inner function
+
+Built in Scopes(accessible anywhere without restrictions)
+----------------
+>> it is for in built functions.
+Ex: print, input....
+
+
