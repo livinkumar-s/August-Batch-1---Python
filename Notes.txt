@@ -65,15 +65,46 @@ Int --> Whole Numbers. 4,-4,0,1
 Float --> Decimal Numbers. 5.22323,3.14
 
 String --> Sequence of Characters.'' "".
+Immutable 
+>> Indexed and Ordered.
 I'm Leo
 "I said "Hi""
-Concatination --> str1+str2
-Formatted String -->
 
-Escape Char 
------------
+Operations:
+Concatination --> str1+str2
+Repetition --> str*2
+
+''' ''' --> Multi line strings
+
+In built methods 
+------------------
+.upper()
+.lower()
+.title()
+.capitalize()
+
+.find(subStr) -1
+.count(subStr)
+
+.split() str --> list
+.join(iter)
+
+.isdigit()
+.isalpha()
+.isalnum()
+
+.startswith(subStr)
+.endswith(subStr)
+
+Formatted String --> f" {v1}  {v2} "
+
+Escape Char:
+\n --> line breaker
+\t --> tab
 
 Boolean
+-----------
+True/False
 
 Type Casting
 --------------
@@ -400,5 +431,4 @@ Built in Scopes(accessible anywhere without restrictions)
 ----------------
 >> it is for in built functions.
 Ex: print, input....
-
 
