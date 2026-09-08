@@ -59,4 +59,23 @@
 
 # this is line breaker \n 
 
-print(a)
+# print(a)
+
+l1=[1,2,3,2,10]
+# l1.reverse() #None
+
+# print(l1)
+# print(l1[::-1])
+
+# print(l1[::-1])
+# print(l1[::-1]) #[5,4,3,2,1]
+# print(l1) #[5,4,3,2,1]
+
+# if l1==l1[::-1]:
+#     print("Palindrome")
+# else:
+#     print("No Pal")
+
+# a=12
+# b= "Large" if a>10 else "Small"  # Large, Small
+# print(b)

@@ -4,7 +4,7 @@ Python
 
 Human written 
 |
-|(Compiled) 
+|(Compiled) (SyntaxErrors)
 |
 Byte code (common) 011011
 |
@@ -432,3 +432,57 @@ Built in Scopes(accessible anywhere without restrictions)
 >> it is for in built functions.
 Ex: print, input....
 
+File Handling 
+----------------
+Process of creating, reading, writing, modifying and managing files. Ex: txt, py, html, xml,  binary, json...
+
+To open a file --> open(path,mode)
+To close a file --> .close()
+
+To read content from file --> .read(size)
+To read the content line by line --> .readline()
+To read the content line by line --> .readlines()
+
+To know cursor pos --> .tell()
+To change the cursor pos --> .seek(pos)
+
+.writable()
+.write()
+
+Mode 
+-------
+Read --> "r"
+Write --> "w" (over writing) (create)
+Append --> "a" (add) (create)
+Create --> "x"
+
+with statement 
+---------------
+with open() as f:
+    block of code 
+
+Error Handling 
+----------------
+>> error is a problem that stops the code from running properly.
+
+Syntax Errors
+---------------
+>> It occurs when you break syntax of python.
+Ex: SyntaxError, IndentationError...
+
+Runtime Errors (can be handled) 
+------------------
+>> These are caught during runtime.
+Ex: TypeError, ZeroDivisionError, ValueError...
+
+Exception Handling 
+-------------------
+
+try:
+    block of code 
+except NameOfError:
+    handling block 
+.
+.
+finally:
+    block of code
