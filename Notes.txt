@@ -477,7 +477,6 @@ Ex: TypeError, ZeroDivisionError, ValueError...
 
 Exception Handling 
 -------------------
-
 try:
     block of code 
 except NameOfError:
@@ -486,3 +485,45 @@ except NameOfError:
 .
 finally:
     block of code
+
+OOP 
+-------
+>> Object Oriented Programming.
+It is a programming pattern that organizes the code using class and objects.
+
+Object --> Real world entity.
+
+Object --> information(Attributes) --> Funcionalities(Methods)
+Blueprint --> Bottle1, Bottle2..
+Class(attr,methods) --> Obj1,Obj2.....
+
+Class 
+------
+Syntax
+---------
+class Clsname:
+    class defenition
+
+Attributes:
+--------------
+Class attributes(common) --> It can be accessed from both class and object.
+
+Instance attributes(object specific) --> It can be accessed only from object.
+__init__(to create instance attributes)
+
+Methods 
+-----------
+Instance Method --> when you want to access instance attrbutes
+Class Method --> when you want to access class attributes
+Static Method --> when you don't want to access any attributes.
+
+Object (Instance)
+---------
+>> Instance from a class.
+
+Self 
+------
+>> it is nothing but the current object itself.
+
+Pillairs 
+----------
