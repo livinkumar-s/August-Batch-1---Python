@@ -525,5 +525,47 @@ Self
 ------
 >> it is nothing but the current object itself.
 
-Pillairs 
-----------
+Concepts Of OOP 
+-------------------
+Inheritance 
+-------------
+>> Child class acquires properties from parent class.
+Code rteusability.
+
+childClass(ParentClass)
+
+Types:
+------
+Single Inheritance 
+Multiple Inheritance
+Multilevel Inheritance
+Hierarchial Inheritance
+Hybrid Inheritance.
+
+Polymorphism 
+---------------
+>> the same method, function, or operator behaves differently depending on data involved.
+
+Method Overriding 
+Duck Typing
+Method Overloading 
+Operator Polymorphism
+
+Abstraction 
+-------------
+
+Encapsulation 
+-------------
+>> binding a data into a class.
+
+>public Attribute
+
+>_  --> Protected Attributes (Python does not strictly prevent access) (intended to be be used internally)
+
+>__ --> Private Attribute
+
+Abstraction 
+----------------
+>> Hiding the complex implementation details to the users. 
+
+Abstract Class --> it is designed to be inherited by other class. cannot be instanciated
