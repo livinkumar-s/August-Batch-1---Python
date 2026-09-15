@@ -569,3 +569,9 @@ Abstraction
 >> Hiding the complex implementation details to the users. 
 
 Abstract Class --> it is designed to be inherited by other class. cannot be instanciated
+
+PIP --> package Installer for Python.
+command --> pip install packageName.
+
+
+Frontend--(data)-->  Python(server) --> MySQL server
